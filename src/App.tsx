@@ -18,9 +18,9 @@ const post = [
       {type: 'paragraph', content: 'Esse aqui é o meu portifolio para vocês me conhecerem um pouco melhor 🚀'},
       {type: 'paragraph', content: 'Meu nome é Lucas Emanuel Chaves, tenho 23 anos e sou um desenvolvedor front-end jr. Me formei como programador no programa +Devs2Blu no dia 01/06/2022 e atualmente estou cursando Analise e Desenvolvimento na Unisocies 📖'},
       {type: 'paragraph', content: 'Falando um pouco do lado profissional, minhas principais Hard Skills é conhecimento em Angular, Java (Springboot) e ReactJS. E minhas principais Soft Skills é o Trabalho em equipe, flexibilidade e princípios éticos'},
-      {type: 'link', content: '👉🏻 LinkedIn', endereco:'https://linkedin.com/in/lucas-emanuel-chaves-b5a3971b5/'},
-      {type: 'link', content: '👨🏻‍💻 GitHub', endereco:'https://github.com/chavesluucas'},
-      {type: 'link', content: '📱 Whats App', endereco:'https://api.whatsapp.com/send?phone=5547999345707&text=Ol%C3%A1%20Lucas!'},
+      {type: 'link', content: '👉🏻 LinkedIn', src:'https://linkedin.com/in/lucas-emanuel-chaves-b5a3971b5/'},
+      {type: 'link', content: '👨🏻‍💻 GitHub', src:'https://github.com/chavesluucas'},
+      {type: 'link', content: '📱 Whats App', src:'https://api.whatsapp.com/send?phone=5547999345707&text=Ol%C3%A1%20Lucas!'},
     ],
     publishedAt: new Date('2022-07-14 16:30:17'),
   },
@@ -71,8 +71,7 @@ function App() {
               content={post.content}
               publishedAt={post.publishedAt}
             />
-            ) 
-            
+            )
         })}
       </main>
     </div>

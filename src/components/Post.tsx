@@ -14,10 +14,9 @@ interface Author{
 }
 
 interface Content {
-    type: 'paragraph' | 'link';
+    type: string;
     content: string;
-    endereco: string;
-
+    src?: string;
 }
 
 interface PostProps{
@@ -90,7 +89,7 @@ export function Post({ author, publishedAt, content } : PostProps) {
                     if(line.type === 'paragraph'){
                         return <p key={line.content}>{line.content}</p>
                     } else if(line.type === 'link'){
-                        return <p key={line.content}><a href={line.endereco}target="_blank">{line.content}</a></p>
+                        return <p key={line.content}><a href={line.src}target="_blank">{line.content}</a></p>
                     }
                 })}
             </div>
