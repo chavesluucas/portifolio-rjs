@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { Avatar } from './Avatar';
 import styles from './Comment.module.css'
 
+const fotoPerfil = "https://github.com/chavesluucas.png";
+
 interface CommentProps {
     content: string,
     onDeleteComment: (comment: string) => void;
@@ -22,7 +24,7 @@ export function Comment({ content, onDeleteComment } : CommentProps) {
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://github.com/chavesluucas.png" alt=''/>
+            <Avatar hasBorder={false} src={fotoPerfil} alt=''/>
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>

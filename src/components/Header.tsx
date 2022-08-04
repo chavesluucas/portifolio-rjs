@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import logo from '../assets/chavesbook-icon.svg'
+import logo from '../assets/chavesbook-icon.png'
 
 
 export function Header(){
