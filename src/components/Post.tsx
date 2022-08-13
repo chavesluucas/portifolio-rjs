@@ -26,7 +26,7 @@ interface PostProps{
 }
 
 export function Post({ author, publishedAt, content } : PostProps) {
-    const [ comments, setComements] = useState([`Gostaria de avisar que não temos um backend para esse site 🙁, então os comentários publicados não serão salvos e ao recarregar a aplicação reinicia.`]);
+    const [ comments, setComements] = useState([`Gostaria de avisar que não temos um backend para esse site 🙁, então os comentários publicados não serão salvos.`]);
     const [ newCommentText, setNewCommentText ] = useState('');
 
     //formatar a data
