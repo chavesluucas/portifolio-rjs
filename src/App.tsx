@@ -15,8 +15,8 @@ const post = [
     },
     content: [
       {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Esse aqui é o meu portifolio para vocês me conhecerem um pouco melhor 🚀'},
-      {type: 'paragraph', content: 'Meu nome é Lucas Emanuel Chaves, tenho 23 anos e sou um desenvolvedor front-end jr. Me formei como programador no programa +Devs2Blu no dia 01/06/2022 e atualmente estou cursando Analise e Desenvolvimento de Sistemas na Unisociesc 📖'},
+      {type: 'paragraph', content: 'Esse aqui é o meu portfolio para vocês me conhecerem um pouco melhor 🚀'},
+      {type: 'paragraph', content: 'Meu nome é Lucas Emanuel Chaves, tenho 23 anos e sou um desenvolvedor front-end jr. Me formei como programador no programa +Devs2Blu no dia 01/06/2022 e atualmente estou cursando Análise e Desenvolvimento de Sistemas na Unisociesc 📖'},
       {type: 'paragraph', content: 'Sou uma pessoa esforçada, adoro trabalhar em equipe e me dou muito bem com pessoas, gosto muito de aprender e sempre estou em busca de novos conhecimentos 🌍'},
       {type: 'paragraph', content: 'Atualmente estou em busca de uma oportunidade como desenvolvedor junior, se você quiser me conhecer mais, me chame em alguma rede social abaixo e bora trocar uma idéia!'},
       {type: 'paragraph', content: `-------------------------------------------------------------------------------------------------------------------------------------------------------------------`},
